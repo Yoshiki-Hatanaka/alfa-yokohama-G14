@@ -30,6 +30,8 @@ const app = Vue.createApp({
           // q2: 'かかか',
           // q3: 'ききき',
         }
+        stage4: {
+          q1:
       },
 
       /* それぞれの問題が正解かどうか
