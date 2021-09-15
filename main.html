@@ -23,7 +23,7 @@
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="https://raw.githubusercontent.com/Yoshiki-Hatanaka/alfa-yokohama-G14/main/assets/images/top%20image%202.jpg" alt="封鎖された家庭科室からの脱出"></h1>
+    <h1 class="main-title"><img src="https://raw.githubusercontent.com/Yoshiki-Hatanaka/alfa-yokohama-G14/main/assets/images/top%20image%202.jpg" alt="秘密結社から彼女を救出せよ"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
@@ -34,7 +34,8 @@
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">まずは、この暗号をといてTwitterのアカウント名を解明しよう。<br>
+            <p class="text-center">Twitterの動画から彼女のバッグとキーホルダーらしきものが落ちている。<br>
+              動画から彼女のキーホルダを読み取ると暗号が書かれていた。<br>
               下の動画の謎を解き、Twitterのアカウント名を解明しよう。</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
   
@@ -86,8 +87,10 @@ Youtube貼り付けここまで -->
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
               <div class="clear-message__content">Twitterのアカウント名が解けた！<br>
-                さぁ彼女を助けるために<br>
-                これからの謎を解いて彼女を助けよう！</div>
+                そこにはたくさんの謎が載っていた。<br>
+                どうやらその謎には闇サイトを使ってとるものもあるらしい。<br>
+                これからその謎を解いて彼女を助けよう！<br>
+                そして闇サイトのリンクを踏むと…ん、誰かからの通知がきた</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -107,9 +110,12 @@ Youtube貼り付けここまで -->
           <div class="section">
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">Twitterのアカウント名がわかった…<br>
+              <p class="text-center">闇サイトには飛べた<br>
+                とある男からのメッセージが来てる。<br>
+                なんとその男は彼女が秘密で入っていた革命軍のボスからだった。<br>
+                そしてこの男も彼女を助けたいと言う。協力して彼女を助けよう！<br>
                 しかし彼女の安否がわからないこれでは彼女がどうなっているかわからない。<br>
-                これを解くことで、きっと次のステップに繋がるはずだ！</p>
+                これを解くことで、何かのヒントになるかもしれない</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -182,7 +188,8 @@ Youtube貼り付けここまで -->
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
               <div class="clear-message__content">彼女が監禁されていることがわかった。<br>
-                次のステージの謎を解こう！</div>
+                でもどこにいるか分からないそうすれば。<br>
+                次のステージの謎を解けば何かわかるはずだ！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -276,7 +283,9 @@ Youtube貼り付けここまで -->
               <div class="clear-message__title">STAGE：3　クリア！</div>
               <div class="clear-message__content">彼女の場所がわかった<br>
                 でも肝心の明確な場所がわからない<br>
-                次のステージの謎を解こう！</div>
+                ここで革命軍のボスからメッセージが来た。<br>
+              　　　　彼女の明確な場所を当てるには彼女が自分に渡してきたものの中にあると言われた<br> 
+                そこで目につけたのは自分が毎日つけている日記だった。</div>
                 <button v-on:click="nextStage('stage3')" onclick="location.href='#sectionStage4'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -293,9 +302,10 @@ Youtube貼り付けここまで -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：4</span>家庭科室の課題とは</h2>
-            <p class="text-center">黒板から得たメッセージは、「食物の廃棄問題」だった。<br>
-              どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
-              これらを解決するための最後の謎を解いていこう！</p>
+            <p class="text-center">自分は彼女にもらった物を必ず日記につけていた。<br>
+              どうやらこの中に明確な場所が示されている物があるらしい。<br>
+              そして自分は一番大事にしていたペンダントに目をつけた<br>
+              そこには謎が書かれていてどうやらそれを解くことで彼女の場所がわかるらしい。</p>
             <figure class="image__container">
               <img src="assets/images/stage.png" alt="">
             </figure>
